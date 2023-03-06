@@ -2,7 +2,10 @@ name = main.html
 files = main.md
 
 make:
-	marp $(files) -o $(name)
+	marp $(files) --html -o $(name)
+
+watch:
+	marp $(files) --html --watch
 
 .SILENT: clean
 clean:
