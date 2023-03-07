@@ -4,7 +4,6 @@ author: Ahmed Shuaib
 size: 16:9
 ---
 <style>
-@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/all.min.css';
 img[alt~="center"] {
   display: block;
   margin: 0 auto;
